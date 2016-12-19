@@ -1,5 +1,4 @@
-custom-banner-image {
-  background: url(custom-assets/images/home_main.jpg) no - repeat center center;
-  height: 200px;
-  width: 200px;
+.custom-banner-image {
+	background: url(../images/home_main.jpg) repeat-x center center;
+  height: 135px;
 }
