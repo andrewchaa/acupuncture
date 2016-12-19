@@ -94,21 +94,16 @@
 			<div class="headline"><h2>Major treatments</h2></div>
 
 			<ul class="row block-grid-v2">
-				<li class="col-md-4 col-sm-6 md-margin-bottom-30">
-					<div class="easy-block-v1">
-						<img class="img-responsive" src="assets/img/mockup/img1.jpg" alt="">
-						<div class="easy-block-v1-badge rgba-purple">IVF / IUI</div>
-					</div>
-					<div class="block-grid-v2-info rounded-bottom">
-						<h3><a href="#">Preparing for IVF or IUI?</a></h3>
-						<p style="text-align: left;">
-							Research has proven the effectiveness of acupuncture during IVF/IUI procedures, resulting in <strong>an increased
-							success rate for IVF.</strong><br />
-							The normal recommendation is for <strong>three months preparation</strong> of combined <strong>acupuncture</strong>
-							and <strong>Chinese herbal treatments prior to IVF.</strong> This regulates the body’s natural productive functions and helps patients
-							regain a normal menstrual cycle, thereby aiding a natural pregnancy.</p>
-					</div>
-				</li>
+				{% 	include picture-box.html
+						image-src="custom-assets/images/fertility.jpg"
+						badge-text="IVF / IUI"
+						title="Preparing for IVF or IUI?"
+						content="Research has proven the effectiveness of acupuncture during IVF/IUI procedures, resulting in <strong>an increased
+						      	 success rate for IVF.</strong><br />
+						      	 The normal recommendation is for <strong>three months preparation</strong> of combined <strong>acupuncture</strong>
+						      	 and <strong>Chinese herbal treatments prior to IVF.</strong> This regulates the body’s natural productive functions and helps patients
+						      	 regain a normal menstrual cycle, thereby aiding a natural pregnancy."
+				%}
 				<li class="col-md-4 col-sm-6 md-margin-bottom-30">
 					<div class="easy-block-v1">
 						<img class="img-responsive" src="assets/img/mockup/img2.jpg" alt="">
