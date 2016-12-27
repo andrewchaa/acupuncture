@@ -1,0 +1,8 @@
+<div class="row" style="font-size: 14px;">
+  <ul class="col-xs-12 list-unstyled lists-v1">
+    {% assign lists = include.lists | split: "|"  %}
+    {% for list in lists %}
+      <li><i class="fa fa-angle-right"></i>{{ list | strip }}</li>
+    {% endfor %}
+  </ul>
+</div>
