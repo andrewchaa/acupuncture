@@ -1,0 +1,72 @@
+---
+layout: default
+banner: custom-assets/images/pain-main.jpg
+title: Pain Management &amp; Musculo-Skeletal Conditions
+---
+
+<div class="container content">
+
+  <p>&nbsp;</p>
+  <div class="headline"><h2>{{ page.title }}</h2></div>
+
+  <div class="row category margin-bottom-20">
+    <!-- Info Blocks -->
+    <div class="col-md-8 col-sm-6">
+      <div class="content-boxes-v3 margin-bottom-10 md-margin-bottom-20">
+        <p>Increasing numbers of people come for acupuncture treatment for painful conditions. Often, people have heard about the effectiveness of acupuncture for treating headaches, back pain or sciatic pain. In addition to these, there are many other painful conditions, including musculo-skeletal problems, that can be treated very effectively.</p>
+        <p>Acupuncture is excellent for promoting the circulation of blood and Qi (vital force) to the local area of the problem, which increases the natural healing power of the body. Clinical research shows that inserting acupuncture needles triggers the production of endorphins, natural pain relievers. 1 In another study, higher levels of endorphins were found in cerebrospinal fluid after patients had undergone acupuncture. 2/3</p>
+
+        <p>&nbsp;</p>
+        <h4>Commonly treated conditions:</h4>
+
+        <div class="row" style="font-size: 14px;">
+          {%
+            include bullet-box.html
+            lists= "Bell’s Palsy|
+                    Carpal Turner Syndrome|
+                    Golfer’s elbow|
+                    Osteoarthritis and Reumatiois arthritis|
+                    Post-injury rehabilitation|
+                    Post stroke paralysis|
+                    RSI (Repetitive Strain Injury)|
+                    Sciatica and lower back pain|
+                    Sprains|
+                    Tension headaches and migraines|
+                    Tennis elbow"
+          %}
+				</div>
+
+      </div>
+    </div>
+    <!-- End Info Blocks -->
+
+    <!-- Begin Section-Block -->
+    <div class="col-md-4 col-sm-12">
+      {% include appointment-box.html %}
+      <p>&nbsp;</p>
+      <ul class="row block-grid-v2">
+        <li class="col-md-12 col-sm-12 md-margin-bottom-30">
+          <div class="easy-block-v1">
+            <img class="img-responsive" src="custom-assets/images/pain-side.jpg" alt="">
+            <div class="easy-block-v1-badge rgba-purple">Acupuncture for pain management</div>
+          </div>
+          <div class="block-grid-v2-info rounded-bottom">
+            {%
+              include bullet-box.html
+              lists= "is safe to use &amp; side effect free|
+                      often lasts longer than conventional painkillers, with accumulative treatments"
+            %}
+
+            &nbsp;
+          </div>
+        </li>
+      </ul>
+      &nbsp;
+    </div>
+  </div>
+    <!-- End Section-Block -->
+
+  </div>
+  <!-- End Top Categories -->
+</div><!--/container-->
+<!--=== End Content ===-->
