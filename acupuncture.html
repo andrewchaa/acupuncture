@@ -1,6 +1,6 @@
 ---
 layout: default
-banner: custom-assets/images/acu_main.jpg
+banner: custom-assets/images/acu-main.jpg
 title: Acupuncture
 ---
 
@@ -51,19 +51,19 @@ title: Acupuncture
             <div class="easy-block-v1-badge rgba-purple">Conditions treated with acupuncture</div>
           </div>
           <div class="block-grid-v2-info rounded-bottom">
-            <ul class="col-xs-12 list-unstyled lists-v1" style="text-align: left;">
-              <li><i class="fa fa-angle-right"></i>Infertility, IVF, IUI support</li>
-              <li><i class="fa fa-angle-right"></i>Aches &amp; pains including back pain, sciatica, arthritis, headaches, period pains</li>
-              <li><i class="fa fa-angle-right"></i>ME, chronic fatigue</li>
-              <li><i class="fa fa-angle-right"></i>Tiredness, anxiety &amp; sleep problems</li>
-            </ul>
+            {%
+              include bullet-box.html
+              lists="Infertility, IVF, IUI support|
+                     Aches &amp; pains including back pain, sciatica, arthritis, headaches, period pains|
+                     ME, chronic fatigue|
+                     Tiredness, anxiety &amp; sleep problems"
+            %}
             &nbsp;
           </div>
         </li>
       </ul>
       &nbsp;
     </div>
-  </div>
   <!-- End Section-Block -->
   </div>
   <!-- End Top Categories -->
