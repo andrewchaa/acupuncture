@@ -5,3 +5,11 @@
 .content-boxes-v3 p {
 	font-size: 14px;
 }
+
+.panel-dark-red {
+  border-color: #a10f2b;
+}
+
+.panel-dark-red-heading {
+  background-color: #a10f2b;
+}
