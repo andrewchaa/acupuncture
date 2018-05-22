@@ -170,6 +170,7 @@ body.header-fixed-space-default {
 	min-width: 100px;
 	display: table-cell;
 	vertical-align: middle;
+	padding-bottom: 20px;
 }
 
 .header .logo img {
