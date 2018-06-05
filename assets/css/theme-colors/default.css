@@ -536,7 +536,7 @@ a.read-more:hover {
 .headline h2,
 .headline h3,
 .headline h4 {
-	border-bottom:2px solid #a10f2b;
+	/* border-bottom:2px solid #a10f2b; */
 }
 
 /* Blockquote */

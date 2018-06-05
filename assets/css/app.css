@@ -73,7 +73,13 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 
 .headline h2 {
 	font-size: 22px;
+	color: rgb(171, 22, 0)
 }
+
+.headline h3 {
+	border-bottom: 1px solid rgb(84, 165, 189);
+}
+
 
 .headline h2,
 .headline h3,
@@ -81,7 +87,6 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 	margin: 0 0 -2px 0;
 	padding-bottom: 5px;
 	display: inline-block;
-	border-bottom: 2px solid rgba(52,152,219,0.8);
 }
 
 .headline-md {
