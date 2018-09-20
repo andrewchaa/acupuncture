@@ -1,5 +1,8 @@
 .custom-banner-image {
-  height: 200px;
+  height: 310px;
+}
+.custom-banner-image-small {
+  height: 180px;
 }
 
 .content-boxes-v3 p {
