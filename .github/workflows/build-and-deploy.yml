@@ -19,7 +19,7 @@ jobs:
     - name: set up ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7'
+        ruby-version: '3.0'
         bundler-cache: true
     - name: build site
       run: bundle exec jekyll build
