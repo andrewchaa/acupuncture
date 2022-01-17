@@ -22,3 +22,9 @@ gem install bundler jekyll
 bundle install
 bundle exec jekyll serve
 ```
+
+### To build the site
+
+```
+bundle exec jekyll build
+```
